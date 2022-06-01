@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calcula IMC</string>
+    <string name="action_settings">Configurações</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="imc">IMC:</string>
+    <string name="zeros">0.0</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="erropeso">Campo Peso deve ser preenchido</string>
+    <string name="erroaltura">Campo Altura deve ser preenchido</string>
+    <string name="resultadoLabel">Resultado Decimal:</string>
+    <string name="textoResultado">Resultado do seu IMC</string>
+
+</resources>
