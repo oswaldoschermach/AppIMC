@@ -42,6 +42,20 @@ public class MainActivity extends AppCompatActivity {
                 btnCalcularOnClick();
             }
         });
+        btnLimpar.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(getApplicationContext(), "Limpa a tela ", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+        btnCalcular.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(getApplicationContext(), "Calcula o seu IMC", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
     }
     private void btnLimparOnClick(){
         tvResultado.setText("Resultado do seu IMC");
